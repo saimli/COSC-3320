@@ -1,0 +1,25 @@
+a1TOa4(int n, string a1, string a2, string a3, string a4){
+1. move n-1 to a4 using a1toa4 func
+2. move n to a3
+3. move n-1 to a1 using onehop func
+4. move n to a4
+5. move n-1 from a1 to a4 using a1toa4 func }
+
+
+twoHop(int n, string a1, string a2, string a3, string a4){ ////THIS ONE ISNT REALLY COMPLETE I THINK STILL WORKING ON IT
+1.move n-1 to a3? i think (use a1toa4 func)
+2. called a1 to a4 again?
+
+onehop{
+1. move n-1 from a4 to a2 using twohop func
+2. move n to a1
+3. move n-1 from a2 to a4 using twohop fun
+4. move n-1 rom a4 to a1 using one hop  }
+
+stoa1 i already sent the description of that
+
+a1tod{
+1. move n-1 from a1 to a4 using a1toa4 func
+2. move a1 to d
+3. move n-1 from a4 to a1 using onehop
+4. move n-1 from a1 to d using a1tod func
